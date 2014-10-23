@@ -1,9 +1,9 @@
 {
   "author": "Vu Bao Nhu (vunb@bkindex.com)",
   "name": "xrelay",
-  "description": "Xrelay is a TCP Port Forwarding tool allows to capture and redirect TCP traffic that flows through a particular port",
+  "description": "XRelay is a TCP Port Forwarding tool allows to capture and redirect TCP traffic that flows through a particular port",
   "homepage": "https://github.com/Vunb/xrelay",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "license": "MIT",
   "repository": {
     "type": "git",

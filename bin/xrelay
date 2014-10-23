@@ -1,8 +1,10 @@
-#!/usr/bin/env node
+#!/bin/sh
+':' // Hack to pass parameters to Node before running this file
+':' //; exec "`command -v node || command -v nodejs`" "$0" "$@"
 
 "use strict";
 var path = require('path');
 var fs = require('fs');
 var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
-require(lib+'/xrelay.js').convert();
+require(lib+'/xrelay.js').start();
