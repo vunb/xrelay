@@ -4,6 +4,13 @@ Traffic forwarder
 Tcp Port Forwarding software also can work as network bridge for redirecting TCP network traffic from one network card to another one.  
 This tool is used for testing some services, firewall and intrusion detection systems. The program can also be used for debugging programs and configuring other network tools.
 
+Installation
+------------
+
+```sh
+npm install xrelay -g
+```
+
 How to use:
 -----------
 
@@ -33,4 +40,4 @@ xrelay 30005 10.84.3.234:30005
 xrelay 8090 10.2.4.238:8090  
 ```
 
-**Note**: xrelay will parse "8090" and "localhost:8090" or even "example.com:8090"  
+**Note**: xrelay will parse `8090` or `localhost:8090` or even `example.com:8090`  
